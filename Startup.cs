@@ -38,8 +38,6 @@ namespace ASPNetCoreCancellationTokenExample
                 app.UseExceptionHandler("/Error");
             }
 
-            app.UseStaticFiles();
-
             app.UseMvc();
         }
     }
